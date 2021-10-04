@@ -45,6 +45,6 @@ a:hover{
 
 body{
     background-image:url(../images/Reeditedhomepage.png);
-    background-size: 100vw;
+    background-size:100vmax;
     background-repeat:no-repeat;
 }
