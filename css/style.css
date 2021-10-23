@@ -43,7 +43,7 @@ a:hover{
     width:1450px;
     height: auto;
     float: right;
-    position:relative;top: 520px;
+    position:relative;top: 530px;
     opacity: 80%;
 }
 /* homepageillustration */
@@ -51,6 +51,7 @@ a:hover{
 body{
     background-image:url(../images/Reeditedhomepage.png);
     background-size:100vw;
+    height:auto;
     background-repeat:no-repeat;
 }
 
