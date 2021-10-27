@@ -2,6 +2,14 @@
     font-family:mrssheppards-regular ;
     src: url(../fonts/MrsSheppards-Regular.ttf);
 }
+/* @font-face {
+    font-family:betelgeuse ;
+    src: url(../fonts/Betelgeuse.ttf);
+} */
+@font-face{
+    font-family:ChildsHandwriting-8AX2;
+    src: url(../fonts/ChildsHandwriting-8AX2.ttf);
+}
 h1{
     text-align: center;
     font-family: 'mrssheppards-regular', sans-serif;
@@ -50,8 +58,10 @@ a:hover{
 
 body{
     background-image:url(../images/Reeditedhomepage.png);
-    background-size:100vw;
-    height:auto;
+    background-size:cover;
+    width: 100vw;
+    height:100vh;
+    margin: auto;
     background-repeat:no-repeat;
 }
 
@@ -70,6 +80,7 @@ body{
   .dropdown {
     position: relative;
     display: inline-block;
+
   }
   
   /* Dropdown Content*/
@@ -84,6 +95,7 @@ body{
   
   /* Dropdown links*/
   .dropdown-content a {
+    background-color: white;
     font-family: Helvetica;
     font-size: 16px;
     font-weight: 100;
@@ -97,3 +109,44 @@ body{
   .dropdown-content a:hover {background-color: black;}
   .dropdown:hover .dropdown-content {display: block;}
   .dropdown:hover .dropbtn {color: rgb(56, 102, 56)}
+
+#neighborpage{
+    background:none;
+}
+#neighbortitle{
+    font-family: "ChildsHandwriting-8AX2";
+    font-size: 80px;
+    position: relative; top: 18px;
+    background-color: white;
+}
+#steve{
+    width: 770px;
+    height: auto;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.oms{
+    font-family:"avenir";
+    font-size: 21px;
+    line-height: 35px;
+}
+#paragraph1{
+    margin-top: 160px;
+    position:relative; right: 235px;
+    width: 108%;
+}
+#paragraph2{
+    margin-right: 100px;
+    margin-left:100px;
+    padding-bottom: 100px;
+}
+#neighborpage{
+    background-color: rgb(192, 158, 113);
+}
+
+p::first-letter { 
+    font-family: "ChildsHandwriting-8AX2";
+    font-size: 85px;
+  }
