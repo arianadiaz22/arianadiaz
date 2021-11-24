@@ -6,10 +6,6 @@ html,body{
     font-family:mrssheppards-regular ;
     src: url(../fonts/MrsSheppards-Regular.ttf);
 }
-/* @font-face {
-    font-family:betelgeuse ;
-    src: url(../fonts/Betelgeuse.ttf);
-} */
 @font-face{
     font-family:ChildsHandwriting-8AX2;
     src: url(../fonts/ChildsHandwriting-8AX2.ttf);
@@ -22,6 +18,7 @@ h1{
     padding-top: 15px;
 }
 nav .tabheaders li{
+    border: none;
     font-family:"helvetica";
     color: black;
     font-size: 16px;
@@ -30,7 +27,6 @@ nav .tabheaders li{
     padding: 30px;
     font-weight: 100;
     padding-top: 25px;
-    
 }
 nav{
     text-align: center;
@@ -45,8 +41,11 @@ a:active{
 a:visited{
     color:black
 }
-a:hover{
-    color:rgb(255, 251, 241);
+.tabheaders li:hover{
+    background-image: url(../images/navbarcircles3.png);
+    background-repeat:no-repeat;
+    background-size:75%;
+    background-position: center;
 }
 #catgif{
     width:1450px;
@@ -66,7 +65,6 @@ body{
     background-repeat:no-repeat;
 }
 
-
 /* Dropdown Button */
 .dropbtn {
     font-family: helvetica;
@@ -81,7 +79,6 @@ body{
   .dropdown {
     position: relative;
     display: inline-block;
-
   }
   
   /* Dropdown Content*/
@@ -117,6 +114,7 @@ body{
 }
 #belongingspage{
     background:none;
+    background-color: rgb(252, 240, 205);
 }
 
 #neighbortitle{
@@ -166,9 +164,104 @@ body{
     font-family:"avenir";
     font-size: 21px;
     line-height: 35px;
-    margin-left:600px;
+    margin-left:550px;
+    margin-top: 100px;
+    margin-right: 100px;
   }
+.objects{
+    width: 300px;
+    height: auto;
+    display: block;
+}
+#mug{
+    width: 350px;
+    height: auto;
+}
+#journal{
+    width: 330px;
+    height: auto;
+}
+.objectscontainer{
+    float: left;
+    position: absolute; top: 5px;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+#ph{
+width: 190px;
+height: auto;
+}
+#lh{
+width: 100px;
+height: auto; 
+margin-top: 55px;
+}
+#jh{
+width: 140px;
+height: auto;   
+margin-top: 55px;
+}
+#mth{
+width: 190px;
+height: auto;   
+margin-top: 55px;
+}
+#mugh{
+width: 80px;
+height: auto;
+margin-top: 55px;
+}
+#rch{
+width: 270px;
+height: auto;
+margin-top: 55px;
+}
+.headings{
+    margin-bottom: 10px;
+}
+#lastpara{
+    padding-bottom: 100px;
+}
+h2{
+    font-family:"mrssheppards-regular";
+    font-size: 90px;
+    text-align: center;
+}
+h3{
+    font-family:"mrssheppards-regular";
+    font-size: 90px;
+    position: relative; left: 75px;
+    padding: 50px;
 
-
-  
-
+}
+#ownerpage{
+    background-image: none;
+    background-color: #576c83;
+    cursor:url("../images/pencil.png"), auto; ;
+}
+#joyceimage{
+    width: 565px;
+    height: auto;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.ownerparagraphs{
+    font-family:"avenir";
+    font-size: 21px;
+    line-height: 35px;
+}
+#paragraph3{
+    margin-top: 200px;
+    width: 90%;
+}
+#paragraph4{
+    margin-right: 100px;
+    margin-left:100px;
+    padding-bottom: 100px;
+}
+#j{
+    margin: none;
+    position: absolute; top: 375px;
+    width: 60px;
+    height: auto;
+}
