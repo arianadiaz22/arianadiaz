@@ -1,0 +1,321 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family:mrssheppards-regular ;
+    src: url(../fonts/MrsSheppards-Regular.ttf);
+}
+@font-face{
+    font-family:ChildsHandwriting-8AX2;
+    src: url(../fonts/ChildsHandwriting-8AX2.ttf);
+}
+h1{
+    text-align: center;
+    font-family: 'mrssheppards-regular', sans-serif;
+    font-size: 65px;
+    color:black;
+    padding-top: 15px;
+}
+nav .tabheaders li{
+    border: none;
+    font-family:"helvetica";
+    color: black;
+    font-size: 16px;
+    list-style: none;
+    display:inline-block;
+    padding: 35px;
+    font-weight: 100;
+    padding-top: 25px;
+}
+nav{
+    text-align: center;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color:black
+}
+.tabheaders li:hover{
+    background-image: url(../images/navbarcircles3.png);
+    background-repeat:no-repeat;
+    background-size:75%;
+    background-position: center;
+}
+#catgif{
+    width:1450px;
+    height: auto;
+    float: right;
+    position:relative;top: 525px;
+    opacity: 80%;
+}
+/* homepageillustration */
+
+body{
+    background-image:url(../images/Reeditedhomepage.png);
+    background-size:cover;
+    width: 100vw;
+    height:100vh;
+    margin: auto;
+    background-repeat:no-repeat;
+}
+
+#neighborpage{
+    background:none;
+    background-color: rgb(252, 240, 205);
+    cursor: url("../images/mouse.png"), auto;
+}
+#belongingspage{
+    background:none;
+    background-color: rgb(230, 213, 162);
+}
+
+#neighbortitle{
+    font-family: "ChildsHandwriting-8AX2";
+    font-size: 80px;
+    position: relative; top: 18px;
+    background-color: white;
+}
+#steve{
+    width: 770px;
+    height: auto;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.oms{
+    font-family:"avenir";
+    font-size: 21px;
+    line-height: 35px;
+}
+#paragraph1{
+    margin-top: 160px;
+    position:relative; right: 235px;
+    width: 108%;
+}
+#paragraph2{
+    margin-right: 100px;
+    margin-left:100px;
+    padding-bottom: 100px;
+}
+#paragraph1::first-letter{
+    font-family: "ChildsHandwriting-8AX2";
+    font-size: 85px;
+  }
+  #omsbutton{
+      width: 700px;
+      height: auto;
+      float: right;
+      margin-bottom: 50px;
+  }
+  #para1{
+      margin-top: 12%;
+      margin-bottom: 10%;
+  }
+  #para2{
+    margin-bottom: 20%;
+}
+#para3{
+    margin-bottom: 32%;
+}
+#para5{
+    margin-bottom: 15%;
+}
+#para4{
+    margin-bottom: 13%;
+}
+  .belongingsparagraphs{
+    font-family:"avenir";
+    font-size: 21px;
+    line-height: 35px;
+    margin-left:550px;
+    margin-right: 100px;
+  }
+.objects{
+    width: 330px;
+    height: auto;
+    display: block;
+    margin-bottom: 100px;
+}
+#perculator{
+    margin-top: 20%;
+    margin-left: 150px;
+}
+#mousetoy{
+    width: 310px;
+    height: auto;
+    margin-left: 150px;
+}
+#rp{
+    width: 380px;
+    height: auto;
+    margin-bottom: 70px;
+    margin-top: 60%;
+    margin-left: 120px;
+}
+#mug{
+    width: 380px;
+    height: auto;
+    margin-left: 120px;
+}
+#journal{
+    width: 360px;
+    height: auto;
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+#lampbutton{
+    width: 460px;
+    height: auto;
+    margin-left: 80px;
+}
+
+.objectscontainer{
+    float: left;
+    position: absolute; top: 5px;
+    margin-top: 250px;
+}
+#ph{
+position: relative; top: 100px;
+width: 190px;
+height: auto;
+}
+#lh{
+width: 100px;
+height: auto; 
+margin-top: 55px;
+}
+#jh{
+width: 140px;
+height: auto;   
+margin-top: 55px;
+}
+#mth{
+width: 190px;
+height: auto;   
+margin-top: 55px;
+}
+#mugh{
+width: 80px;
+height: auto;
+margin-top: 55px;
+}
+#rch{
+width: 270px;
+height: auto;
+margin-top: 140px;
+}
+.headings{
+    margin-bottom: 15px;
+}
+#lastpara{
+    padding-bottom: 100px;
+}
+h2{
+    font-family:"mrssheppards-regular";
+    font-size: 90px;
+    text-align: center;
+}
+h3{
+    font-family:"mrssheppards-regular";
+    font-size: 90px;
+    position: relative; left: 9%;
+
+}
+#ownerpage{
+    background-image: none;
+    background-color: #5f707e;
+    /* cursor:url("../images/pencil.png"), auto; ; */
+}
+#joyceimage{
+    width: 565px;
+    height: auto;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.ownerparagraphs{
+    font-family:"avenir";
+    font-size: 21px;
+    line-height: 35px;
+}
+#paragraph3{
+    margin-top: 200px;
+    width: 92%;
+}
+#paragraph4{
+    margin-right: 100px;
+    margin-left:100px;
+    padding-bottom: 130px;
+}
+#j{
+    margin: none;
+    position: absolute; top: 375px;
+    width: 60px;
+    height: auto;
+}
+#jbutton{
+    width: 450px;
+    height: auto;
+    float: right;
+    margin-bottom: 80px;
+    margin-right: 70px;
+}
+#container{
+    width: 1350px;
+    height: auto;
+    overflow: hidden;
+    position:relative; right: 510px; bottom: 105px;
+}
+#dividend{
+    width: 1500px;
+    height: auto;
+}
+
+
+/* dark mode */
+
+
+
+#belongingsdarkmode{
+    background: none;
+    background-color: #181818;
+}
+
+#h1dark{
+    color: white;
+}
+#h2dark{
+    color: white;
+}
+#steveheadingdark{
+    color: white;
+}
+
+nav .tabheadersdark li{
+    border: none;
+    font-family:"helvetica";
+    color: white;
+    font-size: 16px;
+    list-style: none;
+    display:inline-block;
+    padding: 35px;
+    font-weight: 100;
+    padding-top: 25px;
+}
+.tabheadersdark a:visited{
+    color: white;
+}
+nav .tabheadersdark li:hover{
+    background-image: url(../images/navbarcirclesdark.png);
+    background-repeat:no-repeat;
+    background-size:75%;
+    background-position: center;
+}
+.belongingsparaspacingdark{
+    color: white;
+}
