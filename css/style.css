@@ -24,7 +24,7 @@ nav .tabheaders li{
     font-size: 16px;
     list-style: none;
     display:inline-block;
-    padding: 30px;
+    padding: 35px;
     font-weight: 100;
     padding-top: 25px;
 }
@@ -66,33 +66,33 @@ body{
 }
 
 /* Dropdown Button */
-.dropbtn {
+/* .dropbtn {
     font-family: helvetica;
     font-weight: 100;
     color: black;
     font-size: 16px;
     background:none;
     border: none;
-  }
+  } */
   
   /* The container <div> */
-  .dropdown {
+  /* .dropdown {
     position: relative;
     display: inline-block;
-  }
+  } */
   
   /* Dropdown Content*/
-  .dropdown-content {
+  /* .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     opacity: 85%;
     min-width: 160px;
     z-index: 1;
-  }
+  } */
   
   /* Dropdown links*/
-  .dropdown-content a {
+  /* .dropdown-content a {
     background-color: white;
     font-family: Helvetica;
     font-size: 16px;
@@ -102,19 +102,21 @@ body{
     text-decoration: none;
     display: block;
     text-align: left;
-  }
-  .dropdown-content a:hover {color: white;}
+  } */
+  /* .dropdown-content a:hover {color: white;}
   .dropdown-content a:hover {background-color: black;}
   .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {color: rgb(56, 102, 56)}
+  .dropdown:hover .dropbtn {color: rgb(56, 102, 56)} */
 
 #neighborpage{
     background:none;
+    background-color: rgb(252, 240, 205);
     cursor: url("../images/mouse.png"), auto;
 }
 #belongingspage{
+    
     background:none;
-    background-color: rgb(252, 240, 205);
+    background-color: rgb(199, 163, 66);
 }
 
 #neighbortitle{
@@ -130,7 +132,6 @@ body{
     margin-right: 50px;
     margin-top: 40px;
 }
-
 .oms{
     font-family:"avenir";
     font-size: 21px;
@@ -146,10 +147,6 @@ body{
     margin-left:100px;
     padding-bottom: 100px;
 }
-#neighborpage{
-    background-color: rgb(252, 240, 205);
-}
-
 #paragraph1::first-letter{
     font-family: "ChildsHandwriting-8AX2";
     font-size: 85px;
@@ -160,34 +157,77 @@ body{
       float: right;
       margin-bottom: 50px;
   }
+  #para1{
+      margin-top: 12%;
+      margin-bottom: 10%;
+  }
+  #para2{
+    margin-bottom: 20%;
+}
+#para3{
+    margin-bottom: 32%;
+}
+#para5{
+    margin-bottom: 15%;
+}
+#para4{
+    margin-bottom: 13%;
+}
   .belongingsparagraphs{
     font-family:"avenir";
     font-size: 21px;
     line-height: 35px;
     margin-left:550px;
-    margin-top: 100px;
     margin-right: 100px;
   }
 .objects{
-    width: 300px;
-    height: auto;
-    display: block;
-}
-#mug{
-    width: 350px;
-    height: auto;
-}
-#journal{
     width: 330px;
     height: auto;
+    display: block;
+    margin-bottom: 100px;
 }
+#perculator{
+    margin-top: 20%;
+    margin-left: 150px;
+}
+#mousetoy{
+    width: 310px;
+    height: auto;
+    margin-left: 150px;
+}
+#rp{
+    width: 380px;
+    height: auto;
+    margin-bottom: 70px;
+    margin-top: 60%;
+    margin-left: 120px;
+}
+#mug{
+    width: 380px;
+    height: auto;
+    margin-left: 120px;
+}
+#journal{
+    width: 360px;
+    height: auto;
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+#lampbutton{
+    width: 460px;
+    height: auto;
+    margin-left: 80px;
+}
+/* #lampbutton:active{
+    background-color: red;
+} */
 .objectscontainer{
     float: left;
     position: absolute; top: 5px;
     margin-top: 250px;
-    margin-left: 150px;
 }
 #ph{
+position: relative; top: 100px;
 width: 190px;
 height: auto;
 }
@@ -214,10 +254,10 @@ margin-top: 55px;
 #rch{
 width: 270px;
 height: auto;
-margin-top: 55px;
+margin-top: 140px;
 }
 .headings{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 #lastpara{
     padding-bottom: 100px;
@@ -230,14 +270,13 @@ h2{
 h3{
     font-family:"mrssheppards-regular";
     font-size: 90px;
-    position: relative; left: 75px;
-    padding: 50px;
+    position: relative; left: 9%;
 
 }
 #ownerpage{
     background-image: none;
-    background-color: #576c83;
-    cursor:url("../images/pencil.png"), auto; ;
+    background-color: #5f707e;
+    /* cursor:url("../images/pencil.png"), auto; ; */
 }
 #joyceimage{
     width: 565px;
@@ -252,16 +291,33 @@ h3{
 }
 #paragraph3{
     margin-top: 200px;
-    width: 90%;
+    width: 92%;
 }
 #paragraph4{
     margin-right: 100px;
     margin-left:100px;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
 }
 #j{
     margin: none;
     position: absolute; top: 375px;
     width: 60px;
+    height: auto;
+}
+#jbutton{
+    width: 450px;
+    height: auto;
+    float: right;
+    margin-bottom: 80px;
+    margin-right: 70px;
+}
+#container{
+    width: 1350px;
+    height: auto;
+    overflow: hidden;
+    position:relative; right: 510px; bottom: 105px;
+}
+#dividend{
+    width: 1500px;
     height: auto;
 }
